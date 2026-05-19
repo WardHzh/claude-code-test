@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+venv/
+venv_agent/
+.env
+
+# Node
+frontend/node_modules/
+
+# Database
+*.db
+*.db-shm
+*.db-wal
+
+# Vector store (regeneratable)
+vector_store/
+
+# IDE / Claude settings (local-only)
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
